@@ -6,10 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    @yield('content')
-    <footer>
-        @copy; 2024 Tous droits réservés.
 
-    </footer>
 </body>
 </html>
