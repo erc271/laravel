@@ -27,9 +27,6 @@ class ContactController extends Controller
             $message->to('ayoubbakali817@gmail.com', 'Destinataire')
                     ->subject('Nouveau message de contact');
         });
-        // Mail::raw("y", function($message)  {
-        //     $message->to('ayoubbakali817@gmail.com')->subject('Nouveau message de contact');
-        // });
 
 
         // Redirige vers la page d'accueil avec un message de succès
